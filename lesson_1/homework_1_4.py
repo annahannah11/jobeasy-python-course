@@ -1,8 +1,8 @@
 # Create three strings using three different methods. Save your result to result_string_1, result_string_2,
 # result_string_3 variables
 result_string_1 = 'Just trying to learn'
-result_string_2 = "It's kinda hard"
-result_string_3 = "'But I'm getting there'"
+result_string_2 = "It\'s kinda hard"
+result_string_3 = '''But I\'m getting there'''
 
 
 # Enter a string with your name using console and save the result to result_name variable
@@ -26,4 +26,4 @@ result_ca_capital = ("sacramento").title()
 
 # Enter the name of our planet. Change the case to upper case. Save the result in
 # result_planet variable
-result_planet = ("earth").upper()
+result_planet = "earth".upper()

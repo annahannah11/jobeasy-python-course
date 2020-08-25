@@ -1,5 +1,5 @@
 # Change result_string_1 that 'very simple language' will be displayed on a new line
-result_string_1 = 'Python is \nthe very simple language'
+result_string_1 = 'Python is the \nvery simple language'
 
 
 # Change result_string_2 to print out the phrase: 'What does the word 'integer' mean'

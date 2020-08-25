@@ -25,14 +25,14 @@ last_name = "Badalian"
 if len(first_name) < 5:
     result_3 = f'{first_name}{last_name}'.upper()
 else:
-    result_3 = first_name.lower
+    result_3 = first_name.lower()
 
 
 # Enter a number between 10 and 20 (inclusive) and save number to number_2 variable
 # If they enter a number within this range, save a message “Thank you” to result_4, otherwise a
 # message “Incorrect answer” to result_4.
 number_2 = 19
-if number_2 >=10 and number_2 <=20:
+if 10 <= number_2 <=20:
     result_4 = "Thank you"
 else:
     result_4 = "Incorrect answer"
@@ -57,7 +57,9 @@ else:
 # (January, February, March, April, May, June, Jule, August, September, October, November, December)
 # Write answer in result_month in lower case
 month = 3
-if month == 1:
+if 0 > month > 12:
+    result_month = None
+elif month == 1:
     result_month = "January".lower()
 elif month == 2:
     result_month = "February".lower()
